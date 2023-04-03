@@ -7,7 +7,31 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Мой сайт</h1>
-    <p>uguguguygug</p>
+    <main>
+        <header>
+            <ul>
+                <li>
+                    <a href="">Works</a>
+                </li>
+                <li>
+                    <a href="">Blog</a>
+                </li>
+                <li>
+                    <a href="">Contacts</a>
+                </li>
+            </ul>
+        </header>
+
+        <div class="content">
+            <div>
+                <h1>Hi, I am John,<br>Creative Technologist</h1>
+                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                <button>Download Resume</button>
+            </div>
+            <div>
+                <img src="img/Avatar.png" alt="">
+            </div>
+        </div>
+    </main>
 </body>
 </html>
