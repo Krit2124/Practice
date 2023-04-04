@@ -195,3 +195,42 @@ section.recent .recent-card-container .description .line {
     font-size: 1.25rem;
     color: var(--gray-color);
 }
+
+footer {
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+footer nav ul {
+    width: 160px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 23px 0;
+}
+
+.vk,
+.ok,
+.tg {
+    width: 40px;
+    height: 40px;
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.vk {
+    background-image: url('../img/icons/Vector.svg');
+}
+
+.ok {
+    background-image: url('../img/icons/tabler_brand-ok-ru.svg');
+}
+
+.tg {
+    background-image: url('../img/icons/teenyicons_telegram-solid.svg');
+}
